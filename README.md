@@ -7,6 +7,7 @@ This repository contains the acoustic model for Ukrainian trained on Flashlight 
 - Architecture: Conformer (30m params)
 - Data in train: Common Voice 10 & Voice of America
 - Trained epochs: 410
+- Train time: around a week
 
 ## Quality
 
