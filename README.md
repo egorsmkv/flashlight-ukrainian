@@ -11,7 +11,7 @@ This repository contains the acoustic model for Ukrainian trained on Flashlight 
 
 ## Quality
 
-- WER: 9.07775%
+- WER: 9.07775% (id est the quality is 90.92%)
 - TER: 1.98391%
 
 ## Download
