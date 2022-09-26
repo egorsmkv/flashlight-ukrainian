@@ -28,7 +28,7 @@ Just with an AM:
 
 ```
 /root/flashlight/build/bin/asr/fl_asr_test --am /models/uk_am.bin --datadir ''  --emission_dir '' --uselexicon false \
- --test /texts/filtered_cv10_test.lst --tokens /texts/tokens.txt --lexicon /texts/lexicon.txt --show
+ --test /texts/rows.lst --tokens /texts/tokens.txt --lexicon /texts/lexicon.txt --show
  ```
  
  With a LM:
