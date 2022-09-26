@@ -13,6 +13,10 @@ This repository contains the acoustic model for Ukrainian trained on Flashlight 
 - WER: 9.07775%
 - TER: 1.98391%
 
+## Download
+
+All files are here: https://github.com/egorsmkv/flashlight-ukrainian/releases/tag/v1.0
+
 ## How to test?
 
 Just with an AM:
