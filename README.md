@@ -54,3 +54,11 @@ Just with an AM:
 
 - **rows.lst** is from https://github.com/egorsmkv/cv10-uk-testset-clean
 - **lm_4gram_500k.binary** is from https://huggingface.co/Yehor/kenlm-ukrainian/tree/main/news/lm-4gram-500k
+
+## How to fine-tune on own data?
+
+```
+/root/flashlight/build/bin/asr/fl_asr_train continue /models/ --flagsfile /texts/train.flags
+```
+
+/models/ must contain .bin files
