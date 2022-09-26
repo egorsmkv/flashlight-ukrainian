@@ -31,7 +31,7 @@ Just with an AM:
  ```
  /root/flashlight/build/bin/asr/fl_asr_decode \
   --am=/models/uk_am.bin \
-  --test=/texts/filtered_cv10_test.lst \
+  --test=/texts/rows.lst \
   --maxload=3477 \
   --nthread_decoder=2 \
   --show \
@@ -51,3 +51,6 @@ Just with an AM:
   --unkscore=0 \
   --smearing=max
  ```
+
+- **rows.lst** is from https://github.com/egorsmkv/cv10-uk-testset-clean
+- **lm_4gram_500k.binary** is from https://huggingface.co/Yehor/kenlm-ukrainian/tree/main/news/lm-4gram-500k
