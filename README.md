@@ -1,5 +1,9 @@
 # The Ukrainian model (AM) for Flashlight
 
+🇺🇦 Join Ukrainian Speech Recognition Community - https://t.me/speech_recognition_uk
+
+⭐ See other Ukrainian models - https://github.com/egorsmkv/speech-recognition-uk
+
 ## Overview
 
 This repository contains the acoustic model for Ukrainian trained on Flashlight framework: https://github.com/flashlight/flashlight/tree/main/flashlight/app/asr
