@@ -4,6 +4,7 @@
 
 This repository contains the acoustic model for Ukrainian trained on Flashlight framework: https://github.com/flashlight/flashlight/tree/main/flashlight/app/asr
 
+- Architecture: Conformer (30m params)
 - Trained epochs: 410
 
 ## Quality
