@@ -1,4 +1,4 @@
-# The Ukrainian model (AM) for Flashlight
+# The Ukrainian Acoustic Model for Flashlight
 
 🇺🇦 Join Ukrainian Speech Recognition Community - https://t.me/speech_recognition_uk
 
