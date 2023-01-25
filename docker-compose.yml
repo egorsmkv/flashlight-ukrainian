@@ -4,6 +4,8 @@ services:
   flashlight_cpu:
     image: flml/flashlight:cpu-latest
     container_name: flashlight_cpu
+    stdin_open: true
+    tty: true
     volumes:
       - ./data/:/data
       - ./models/:/models
