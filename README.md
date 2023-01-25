@@ -24,6 +24,17 @@ All files are here: https://github.com/egorsmkv/flashlight-ukrainian/releases/ta
 
 ## How to test?
 
+### Run a container with Flashlight running with CPU
+
+```bash
+docker-compose up
+
+# and in another termianl
+docker exec -it flashlight_cpu bash
+```
+
+### Run
+
 Just with an AM:
 
 ```
