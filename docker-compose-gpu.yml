@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  flashlight_gpu:
+    image: flml/flashlight:cuda-latest
+    runtime: nvidia
+    tty: true
+    stdin_open: true
+    container_name: flashlight_gpu
+    volumes:
+      - ./data/:/data
+      - ./models/:/models
+      
