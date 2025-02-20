@@ -12,7 +12,7 @@ See other Ukrainian models: https://github.com/egorsmkv/speech-recognition-uk
 
 This repository contains the acoustic model for Ukrainian trained on Flashlight framework: https://github.com/flashlight/flashlight/tree/main/flashlight/app/asr
 
-- Architecture: Conformer (30m params)
+- Architecture: Conformer (300m params)
 - Data in train: Common Voice 10 & Voice of America
 - Trained epochs: 410
 - Train time: around a week (RTX A4000)
