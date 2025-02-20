@@ -37,6 +37,10 @@ docker-compose up
 docker exec -it flashlight_cpu bash
 ```
 
+### Model
+
+The AM model published here: https://huggingface.co/Yehor/flashlight-uk
+
 ### Run
 
 Just with an AM:
