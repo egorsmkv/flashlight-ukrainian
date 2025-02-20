@@ -19,7 +19,7 @@ This repository contains the acoustic model for Ukrainian trained on Flashlight 
 
 ### Download
 
-The AM model with configuration files published here: https://huggingface.co/Yehor/flashlight-uk
+The AM model with configuration files published here: https://huggingface.co/Yehor/flashlight-uk/tree/main
 
 ## Quality
 
