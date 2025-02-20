@@ -1,8 +1,12 @@
-# The Ukrainian Acoustic Model for Flashlight
+# Flashlight for Ukrainian
 
-🇺🇦 Join Ukrainian Speech Recognition Community - https://t.me/speech_recognition_uk
+## Community
 
-⭐ See other Ukrainian models - https://github.com/egorsmkv/speech-recognition-uk
+- Discord: https://bit.ly/discord-uds
+- Speech Recognition: https://t.me/speech_recognition_uk
+- Speech Synthesis: https://t.me/speech_synthesis_uk
+
+See other Ukrainian models: https://github.com/egorsmkv/speech-recognition-uk
 
 ## Overview
 
@@ -11,12 +15,12 @@ This repository contains the acoustic model for Ukrainian trained on Flashlight 
 - Architecture: Conformer (30m params)
 - Data in train: Common Voice 10 & Voice of America
 - Trained epochs: 410
-- Train time: around a week
+- Train time: around a week (RTX A4000)
 
 ## Quality
 
-- WER: 9.07775% (id est the quality is 90.92%)
-- TER: 1.98391%
+- WER: 9.0777% (id est the quality is 90.92%)
+- TER: 1.9839%
 
 ## Download
 
@@ -42,12 +46,12 @@ Just with an AM:
  --test /data/rows.lst --tokens /models/tokens.txt --lexicon /models/lexicon.txt --show
  ```
  
- With a LM:
+ With an LM:
  
  ```
  /root/flashlight/build/bin/asr/fl_asr_decode \
   --am=/models/uk_am.bin \
-  --test=/data/rows.lst \
+  --test=/data/labels_absolute.lst \
   --maxload=3477 \
   --nthread_decoder=2 \
   --show \
@@ -68,7 +72,7 @@ Just with an AM:
   --smearing=max
  ```
 
-- **rows.lst** is from https://github.com/egorsmkv/cv10-uk-testset-clean
+- **labels_absolute.lst** is from https://github.com/egorsmkv/cv10-uk-testset-clean
 - **lm_4gram_500k.binary** is from https://huggingface.co/Yehor/kenlm-ukrainian/tree/main/news/lm-4gram-500k
 
 ## How to fine-tune on own data?
@@ -77,4 +81,4 @@ Just with an AM:
 /root/flashlight/build/bin/asr/fl_asr_train continue /models/ --flagsfile /models/train.flags
 ```
 
-/models/ must contain .bin files
+`/models/` must contain .bin files
