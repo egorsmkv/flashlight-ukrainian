@@ -24,7 +24,7 @@ The AM model with configuration files published here: https://huggingface.co/Yeh
 ## Quality
 
 - WER: 9.0777% (id est the quality is 90.92%)
-- TER: 1.9839%
+- CER: 1.9839%
 
 ## How to test?
 
