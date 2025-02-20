@@ -17,14 +17,14 @@ This repository contains the acoustic model for Ukrainian trained on Flashlight 
 - Trained epochs: 410
 - Train time: around a week (RTX A4000)
 
+### Download
+
+The AM model with configuration files published here: https://huggingface.co/Yehor/flashlight-uk
+
 ## Quality
 
 - WER: 9.0777% (id est the quality is 90.92%)
 - TER: 1.9839%
-
-## Download
-
-All files are here: https://github.com/egorsmkv/flashlight-ukrainian/releases/tag/v1.0
 
 ## How to test?
 
@@ -36,10 +36,6 @@ docker-compose up
 # and in another termianl
 docker exec -it flashlight_cpu bash
 ```
-
-### Model
-
-The AM model published here: https://huggingface.co/Yehor/flashlight-uk
 
 ### Run
 
